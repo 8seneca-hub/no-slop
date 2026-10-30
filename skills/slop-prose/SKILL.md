@@ -67,7 +67,6 @@ Tier: H = fix always, P = fix unless a written reason says keep, Q = fix when ch
 | NS-P-21 | Q | Em dash: none in short text, at most two in a long piece. Hard (H) in product copy and UI |
 | NS-P-22 | P | Portability: if the sentence fits any company or topic, make it specific or cut it |
 | NS-P-23 | Q | Cut padding words and adverbs that add nothing ("in order to", "basically") |
-| NS-P-24 | Q | Vietnamese patterns: see `references/vi.md` (DRAFT, needs native review) |
 | NS-P-25 | H | No chatbot residue ("I hope this helps", "Great question") |
 
 ### Portability test (NS-P-22)
@@ -76,7 +75,7 @@ Swap in a competitor's name or a different topic. If the sentence still reads tr
 
 ## Deterministic check
 
-`node scripts/slop-lint.mjs <file>` finds the mechanical hits (phrases, em dashes, contrast patterns) in English and Vietnamese. Run it when the file is long; it does not see structure, voice or portability, so the judgment rules above stay yours. The lint output is evidence, not an edit list: a phrase inside a quote or a code sample stays.
+`node scripts/slop-lint.mjs <file>` finds the mechanical hits (phrases, em dashes, contrast patterns) in English. Run it when the file is long; it does not see structure, voice or portability, so the judgment rules above stay yours. The lint output is evidence, not an edit list: a phrase inside a quote or a code sample stays.
 
 ## Score (optional)
 
@@ -110,4 +109,3 @@ L12 "experts say"               NS-P-18  name who, or cut
 - `references/examples.md` before and after pairs, including voices to keep
 - `references/voice.md` finding and protecting a voice; when a rule may break
 - `references/eval.md` post-edit checklist and the score rubric
-- `references/vi.md` Vietnamese patterns (DRAFT)

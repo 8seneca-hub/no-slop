@@ -36,7 +36,7 @@ Target: WCAG 2.2 AA. Tiers: **H** never ship, **P** needs a written reason, **Q*
 
 **NS-A-11 [H] Errors tied to fields and announced.** The message sits next to the field, is linked with `aria-describedby`, the field gets `aria-invalid="true"`, and on submit focus goes to the first error or a summary with links. Say what is wrong and how to fix it. Never rely on a toast alone.
 
-**NS-A-12 [H] Language attribute.** `<html lang="en">` or `vi`; set `lang` on passages in another language. Why: screen readers pick pronunciation from it.
+**NS-A-12 [H] Language attribute.** Set a correct `lang` on `<html>` (for example `<html lang="en">`); set `lang` on passages in another language. Why: screen readers pick pronunciation from it.
 
 **NS-A-13 [Q] Headings in order, landmarks present.** One `h1`, no skipped levels, headings describe sections and are not used for size. Use `header`, `nav`, `main`, `aside`, `footer`; label a landmark when there are two of the same kind. Provide a skip link when there is repeated navigation.
 

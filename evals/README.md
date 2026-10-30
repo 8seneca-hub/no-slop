@@ -3,7 +3,7 @@
 Fixtures that prove the linter fires on slop and stays quiet on good text.
 
 - `bad/`: files that must be flagged. `expected.json` lists the rule ids each one must trigger. Ids can be a parent (`NS-P-03`, matches every child) or a full id (`NS-P-03.01`).
-- `good/`: files that must produce zero findings. They include human text with a real voice, clean message catalogs in English and Vietnamese (with `{placeholders}` and ICU plurals), technical docs, and code comments that carry a reason.
+- `good/`: files that must produce zero findings. They include human text with a real voice, clean message catalogs in English (with `{placeholders}` and ICU plurals), technical docs, and code comments that carry a reason.
 - `expected.json`: file path (relative to `evals/`) to a list of rule ids. A good file maps to `[]`.
 - `run.mjs`: runs `scripts/slop-lint.mjs --json` on each fixture, prints a table and exits 1 on a missed rule in `bad/`, on any finding in `good/`, or on a fixture that is not in `expected.json`.
 

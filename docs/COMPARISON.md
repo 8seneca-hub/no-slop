@@ -15,7 +15,7 @@ Read 30 Oct 2026 from the repositories themselves (all MIT). Notes are about the
 ## What none of them do (the gap this plugin fills)
 
 1. **No deterministic checks.** Banned phrases, em dashes, filler and contrast ratios can be found by a program. All three leave it to the model to notice, so it fails on long files and tired sessions. A linter catches the mechanical part and leaves judgment to the model.
-2. **No Vietnamese.** Every list is English. 8seneca ships `en` and `vi` for every user-facing string.
+2. **English focus.** Every list is English, and so is this plugin. It goes deeper on English phrase and catalog checks than the others.
 3. **No product-UI copy.** Prose skills target essays and posts. The slop in apps is microcopy: explanation paragraphs under fields, "Oops! Something went wrong", empty states that sell, raw enums and ids, dash placeholders.
 4. **Always-on cost.** Only one of the three loads progressively. The core should be a router of about 100 lines.
 5. **No headless contract.** Agents in a loop cannot answer a mode question. Mode must come from the brief, the repo file or the task type.

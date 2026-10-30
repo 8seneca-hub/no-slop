@@ -5,7 +5,7 @@ A Claude Code and Codex plugin from 8seneca that stops generic AI output in pros
 ## Principles
 
 1. **Router, not a wall.** One core skill of at most 120 lines is always loaded. It routes to the skill for the task. References load on demand.
-2. **Mechanical checks are code.** `scripts/slop-lint.mjs` (zero dependencies, Node 20+) finds banned phrases, em dashes, filler, raw ids and dash placeholders in text and message catalogs, in English and Vietnamese. The model handles judgment: structure, voice, specificity, design.
+2. **Mechanical checks are code.** `scripts/slop-lint.mjs` (zero dependencies, Node 20+) finds banned phrases, em dashes, filler, raw ids and dash placeholders in text and message catalogs, in English. The model handles judgment: structure, voice, specificity, design.
 3. **Voice first for people, consistency first for product.** Personal writing: minimal edit, keep the author's voice. Product copy and docs: strict and uniform.
 4. **Headless by default.** The mode is never a question to an agent. Order: the user's explicit instruction, then the brief, then the repo's `.no-slop.json` or the `no-slop` block in `CLAUDE.md`, then the task type (edit or build = during; audit, review, "is this slop?" = after or detect). Ask only in an interactive chat when the task type is ambiguous.
 5. **Repo wins.** Precedence: explicit user instruction, then the repo's `DESIGN.md`, kit and owner rules, then these skills. A conflict is named in the notes, never silently resolved.
@@ -18,8 +18,8 @@ A Claude Code and Codex plugin from 8seneca that stops generic AI output in pros
 | Skill | Job |
 |---|---|
 | `no-slop` | Core router: principles, mode resolution, precedence, gate summary, which skill when |
-| `slop-prose` | Edit or detect AI patterns in writing (voice-preserving), strict mode for docs, optional 5-dimension score; English references plus Vietnamese notes |
-| `slop-product-copy` | Microcopy in apps: plain words, no explanation paragraphs, empty/loading/error states, no raw ids or enums, no dash placeholders, i18n keys for both languages |
+| `slop-prose` | Edit or detect AI patterns in writing (voice-preserving), strict mode for docs, optional 5-dimension score |
+| `slop-product-copy` | Microcopy in apps: plain words, no explanation paragraphs, empty/loading/error states, no raw ids or enums, no dash placeholders, message keys for every string |
 | `slop-ui` | Visual and interaction slop on web and desktop apps: decoration, fake data, generic layouts, dead controls, direction before building |
 | `slop-mobile` | Phone and narrow layouts: reflow, safe areas, tap targets, dynamic type, keyboard, overflow |
 | `slop-a11y` | Contrast, keyboard, focus, states, names; ships `scripts/contrast-check.mjs` |
@@ -36,7 +36,7 @@ Scales with the task: a one-line copy edit runs the 5-item small gate; a screen 
 
 ## Deterministic tools
 
-- `slop-lint`: `node scripts/slop-lint.mjs [--lang en|vi|both] [--json] <files or dirs>`. Reads text files, JSON message catalogs (nested keys, `{placeholders}` preserved) and Markdown. Rules in `scripts/rules/*.json` (phrases, patterns, allowlists). Exit 1 on findings of tier H, so it can run in CI and a pre-push hook.
+- `slop-lint`: `node scripts/slop-lint.mjs [--json] <files or dirs>`. Reads text files, JSON message catalogs (nested keys, `{placeholders}` preserved) and Markdown. Rules in `scripts/rules/*.json` (phrases, patterns, allowlists). Exit 1 on findings of tier H, so it can run in CI and a pre-push hook.
 - `contrast-check`: `node scripts/contrast-check.mjs <fg> <bg> [--large]` and a token-file mode, WCAG AA 4.5:1 and 3:1.
 
 ## Evals

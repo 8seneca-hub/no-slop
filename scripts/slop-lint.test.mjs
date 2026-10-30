@@ -23,8 +23,6 @@ writeFileSync(join(rulesDir, 'a.json'), JSON.stringify({
     R('NS-T-02.02', 'H', 'any', 'regex', '—', ['copy', 'ui']),
     R('NS-T-03.01', 'H', 'en', 'phrase', 'oops', ['copy', 'ui']),
     R('NS-T-03.02', 'H', 'en', 'phrase', 'something went wrong', ['copy', 'ui']),
-    R('NS-T-04.v01', 'Q', 'vi', 'phrase', 'đã xảy ra lỗi', ['copy', 'prose']),
-    R('NS-T-04.v02', 'P', 'vi', 'phrase', 'ma', ['copy', 'prose']),
     R('NS-T-05.01', 'H', 'any', 'regex', '^\\s*(?:—|n/a)\\s*$', ['copy'], 'im'),
     R('NS-T-07.01', 'Q', 'en', 'phrase', 'it’s worth noting', ['prose']),
     R('NS-T-06.01', 'Q', 'en', 'phrase', 'added function to', ['code-comment']),
@@ -68,27 +66,9 @@ test('em dash flagged in a catalog as H', () => {
   const r = lint(['--json', 'en.json'], { 'en.json': '{"a":"Save — now"}' });
   assert.deepEqual(r.json.map((f) => [f.id, f.tier]), [['NS-T-02.02', 'H']]);
 });
-test('vietnamese phrase matches with diacritics', () => {
-  assert.deepEqual(ids(lint(['--json', 'vi.json'], { 'vi.json': '{"e":"Đã xảy ra lỗi."}' })), ['NS-T-04.v01']);
-});
-test('vietnamese matching is diacritic exact', () => {
-  assert.deepEqual(ids(lint(['--json', 'vi.json'], { 'vi.json': '{"e":"Da xay ra loi."}' })), []);
-});
-test('vietnamese word boundary: "ma" does not match inside "mạng" or "máy"', () => {
-  assert.deepEqual(ids(lint(['--json', 'vi.json'], { 'vi.json': '{"e":"mạng máy tính"}' })), []);
-  assert.deepEqual(ids(lint(['--json', 'vi.json'], { 'vi.json': '{"e":"đó là ma ở đây"}' })), ['NS-T-04.v02']);
-});
-test('decomposed (NFD) vietnamese text still matches', () => {
-  const nfd = 'Đã xảy ra lỗi'.normalize('NFD');
-  assert.equal(lint(['--json', 'vi.json'], { 'vi.json': JSON.stringify({ e: nfd }) }).json.length, 1);
-});
-test('--lang en skips vietnamese rules, keeps any-language rules', () => {
-  const r = lint(['--lang', 'en', '--json', 'vi.json'], { 'vi.json': '{"e":"Đã xảy ra lỗi — x"}' });
-  assert.deepEqual(ids(r), ['NS-T-02.02']);
-});
-test('--lang vi skips english rules', () => {
-  const r = lint(['--lang', 'vi', '--json', 'en.json'], { 'en.json': '{"e":"Oops"}' });
-  assert.deepEqual(ids(r), []);
+test('--lang en is accepted and ignored', () => {
+  const r = lint(['--lang', 'en', '--json', 'en.json'], { 'en.json': '{"e":"Oops"}' });
+  assert.deepEqual(ids(r), ['NS-T-03.01']);
 });
 test('catalog reports nested key paths', () => {
   const r = lint(['--json', 'en.json'], { 'en.json': '{"a":{"b":{"c":"Oops"}},"list":["fine","Oops again"]}' });
@@ -208,7 +188,7 @@ test('directories are walked; node_modules and package.json are skipped', () => 
 test('exit 2 on an unknown option', () => {
   assert.equal(lint(['--bogus', 'a.md'], { 'a.md': 'x' }).status, 2);
 });
-test('exit 2 on a bad --fail-on or --lang value', () => {
+test('exit 2 on a bad --fail-on or a non-English --lang value', () => {
   assert.equal(lint(['--fail-on', 'X', 'a.md'], { 'a.md': 'x' }).status, 2);
   assert.equal(lint(['--lang', 'fr', 'a.md'], { 'a.md': 'x' }).status, 2);
 });

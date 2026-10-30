@@ -2,7 +2,7 @@
 
 no-slop is a Claude Code and Codex plugin that stops generic AI output in prose, product copy, UI, mobile layout, accessibility and code comments. It filters; direction still comes from your repo's `DESIGN.md`, component kit and `CLAUDE.md`.
 
-A small router skill is always loaded and sends each task to one focused skill. A zero-dependency Node linter handles the mechanical checks in English and Vietnamese.
+A small router skill is always loaded and sends each task to one focused skill. A zero-dependency Node linter handles the mechanical checks in English.
 
 ## Install
 
@@ -24,8 +24,8 @@ Requires Node 20 or newer for the scripts. The skills need nothing.
 | Skill | Job |
 |---|---|
 | `no-slop` | Router: principles, mode, precedence, gate summary |
-| `slop-prose` | Edit or detect AI patterns in writing, keeping the author's voice; English and Vietnamese |
-| `slop-product-copy` | App microcopy: plain words, states, no raw ids or dash placeholders, en and vi |
+| `slop-prose` | Edit or detect AI patterns in writing, keeping the author's voice |
+| `slop-product-copy` | App microcopy: plain words, states, no raw ids or dash placeholders |
 | `slop-ui` | Web and desktop UI: fake data, dead controls, generic layout |
 | `slop-mobile` | Phone and narrow layouts: reflow, safe areas, tap targets |
 | `slop-a11y` | Contrast, keyboard, focus, names |
@@ -45,7 +45,7 @@ The mode is resolved, never asked in a headless run: your instruction, then the 
 Linter (reads files, prints, writes nothing, no network):
 
 ```
-node scripts/slop-lint.mjs [--lang en|vi|both] [--scope prose|copy|ui|code-comment] [--json] [--fail-on H|P|Q] [--rules <dir>] <files or dirs>
+node scripts/slop-lint.mjs [--scope prose|copy|ui|code-comment] [--json] [--fail-on H|P|Q] [--rules <dir>] <files or dirs>
 node scripts/slop-lint.mjs docs/ locales/
 node scripts/slop-lint.mjs --scope code-comment --json src/
 ```
@@ -69,7 +69,7 @@ Compared with stop-slop, no-ai-slop and anti-slop (details in `docs/COMPARISON.m
 
 - The always-loaded core is a router of at most 120 lines, not a rulebook.
 - Mechanical checks are code (a linter and a contrast tool), not prompts.
-- English and Vietnamese rules and catalog linting.
+- English rules and catalog linting.
 - Product microcopy, UI, mobile and code comments in one plugin.
 - A headless mode contract and a stated precedence: the repo wins, conflicts are named.
 - Fixtures prove rules fire on slop and stay quiet on good text.

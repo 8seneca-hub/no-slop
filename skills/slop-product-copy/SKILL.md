@@ -1,6 +1,6 @@
 ---
 name: slop-product-copy
-description: Write or review text inside an app or product UI (labels, buttons, errors, empty and loading states, toasts, message catalogs in en and vi). Use when building or editing screens, i18n files or microcopy, or when asked to remove explanation text, "Oops" errors, raw ids, dash placeholders or inconsistent terms. Not for essays or docs (use slop-prose).
+description: Write or review text inside an app or product UI (labels, buttons, errors, empty and loading states, toasts, message catalogs). Use when building or editing screens, i18n files or microcopy, or when asked to remove explanation text, "Oops" errors, raw ids, dash placeholders or inconsistent terms. Not for essays or docs (use slop-prose).
 allowed-tools: Read Write Edit Glob Grep
 ---
 
@@ -29,7 +29,7 @@ Tier: H = never ship, P = keep only with a written reason, Q = fix when cheap.
 | NS-C-09 | P | One label, one meaning. One concept, one word, everywhere (not Client / Customer / Account) |
 | NS-C-10 | Q | Show people by full name, never by id, email prefix or first name alone, unless the layout is a chat |
 | NS-C-11 | P | Numbers, dates, currency and units follow the locale (Intl formatting), never string-built |
-| NS-C-12 | H | Every string has a message key, with both `en` and `vi` present. No hard-coded literals in components |
+| NS-C-12 | H | Every string has a message key, no hard-coded literals in components |
 | NS-C-13 | P | No hard-coded plural or gender. Use ICU plural and select messages; avoid "(s)" |
 | NS-C-14 | Q | Sentence case for buttons, labels, headings. Capitalise names only |
 | NS-C-15 | H | No emoji as icons or bullets. Use the icon kit |
@@ -53,9 +53,9 @@ Shared prose rules still apply in app text: NS-P-03 (emphasis), NS-P-16 (jargon)
 
 **Empty values (NS-C-08).** Dash rows tell the user nothing. Hide an optional row. For a required row, "Not set" with the action to set it. For numbers, `0` is a value; do not replace it.
 
-**Terms (NS-C-09).** Keep a glossary in the repo. One word per concept in both languages. Check with a search before you add a new label.
+**Terms (NS-C-09).** Keep a glossary in the repo. One word per concept. Check with a search before you add a new label.
 
-**Keys and locales (NS-C-12, 13).** Key by place and meaning (`invoice.empty.title`), not by the English text. Add `en` and `vi` in the same change; a missing locale is a Hard fail. Do not build sentences from fragments ("You have " + n + " items"); give translators the whole message with placeholders. Plural forms: Vietnamese has none, English has two; still write both through ICU so other locales work.
+**Keys and locales (NS-C-12, 13).** Key by place and meaning (`invoice.empty.title`), not by the English text. Do not build sentences from fragments ("You have " + n + " items"); give translators the whole message with placeholders. Write plurals through ICU, not by adding "s".
 
 ## Length limits (NS-C-18)
 
@@ -69,11 +69,10 @@ Shared prose rules still apply in app text: NS-P-03 (emphasis), NS-P-16 (jargon)
 | Heading | 6 words |
 | Empty state | One line plus one action |
 
-Vietnamese runs about 20 percent longer than English: leave room, do not shorten by dropping diacritics.
 
 ## Check
 
-`node scripts/slop-lint.mjs --lang both <catalog or source files>` finds phrases, dashes, placeholders, enums, ids, UUIDs and missing-key shapes. It cannot see term consistency or whether a hint is needed; do those yourself. Delivery gate for a screen: H items answered "none", P items justified, Q items checked, each line with evidence (file and key).
+`node scripts/slop-lint.mjs <catalog or source files>` finds phrases, dashes, placeholders, enums, ids, UUIDs and missing-key shapes. It cannot see term consistency or whether a hint is needed; do those yourself. Delivery gate for a screen: H items answered "none", P items justified, Q items checked, each line with evidence (file and key).
 
 ## Output
 

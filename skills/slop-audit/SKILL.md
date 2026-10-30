@@ -39,7 +39,7 @@ Audit reads and reports. It never edits the audited files. The only file it writ
 # Audit: <surface>
 Date: YYYY-MM-DD
 Skills used: slop-ui, slop-product-copy, slop-a11y
-Files read: src/pages/Checkout.tsx, locales/en.json, locales/vi.json
+Files read: src/pages/Checkout.tsx, locales/en.json
 Tools: slop-lint 14 findings (3 H), contrast-check 2 fails
 Rendered: yes, 1280 and 390 wide; states: filled, empty
 
@@ -55,7 +55,7 @@ Rendered: yes, 1280 and 390 wide; states: filled, empty
 | #8a8a8a on #ffffff | 3.5 | 4.5 | FAIL |
 
 ## Not reached
-Dark theme, Vietnamese error states, tablet width.
+Dark theme, error states, tablet width.
 
 ## Fix list
 - [ ] F1 (n1, n4): rewrite the error strings. High.
@@ -94,7 +94,7 @@ Run the small gate, then every area that applies. H items must be answered no (n
 | Area | Items to answer | Where the checks live |
 |---|---|---|
 | Prose (NS-P) | H none; P justified; Q scored if asked | `skills/slop-prose/references/eval.md` |
-| Copy (NS-C) | no oops, no explanation paragraphs, no raw ids, no dash placeholders, en and vi keys both present | `skills/slop-product-copy/SKILL.md` |
+| Copy (NS-C) | no oops, no explanation paragraphs, no raw ids, no dash placeholders, message keys present | `skills/slop-product-copy/SKILL.md` |
 | UI (NS-U) | no fake data, no dead controls, direction named, states shown | `skills/slop-ui/references/checklist.md` |
 | Mobile (NS-M) | reflow at 390, safe areas, tap targets, no overflow | `skills/slop-mobile/SKILL.md` |
 | A11y (NS-A) | contrast pairs run, keyboard path, focus visible, names | `skills/slop-a11y/SKILL.md` |

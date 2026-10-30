@@ -23,7 +23,7 @@ A filter, not a style guide. It removes generic AI output and leaves direction t
 | Task | Load |
 |---|---|
 | Write, edit or check prose, posts, docs, release notes | `slop-prose` |
-| Labels, buttons, empty, loading and error states, i18n (en and vi) | `slop-product-copy` |
+| Labels, buttons, empty, loading and error states, message keys | `slop-product-copy` |
 | Web or desktop screens, components, layout, fake data, dead controls | `slop-ui` |
 | Phone or narrow layout, safe areas, tap targets, keyboard | `slop-mobile` |
 | Contrast, keyboard, focus, names, states | `slop-a11y` |

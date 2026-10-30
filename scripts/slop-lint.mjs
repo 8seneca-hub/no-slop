@@ -9,13 +9,13 @@ const SCOPES = ['prose', 'copy', 'ui', 'code-comment'];
 const CODE_EXT = new Set(['.js', '.mjs', '.cjs', '.ts', '.tsx', '.jsx', '.py', '.rb', '.go', '.rs', '.java', '.kt', '.swift', '.c', '.h', '.cpp', '.cs', '.php', '.sh', '.css', '.scss', '.vue', '.svelte']);
 const SKIP_DIRS = new Set(['node_modules', '.git', 'dist', 'build', '.next', 'coverage', '.expo']);
 const SKIP_FILES = new Set(['package.json', 'package-lock.json', 'tsconfig.json', '.no-slop.json']);
-const USAGE = `Usage: node scripts/slop-lint.mjs [--lang en|vi|both] [--scope prose|copy|ui|code-comment] [--json] [--fail-on H|P|Q] [--rules <dir>] <files or directories>`;
+const USAGE = `Usage: node scripts/slop-lint.mjs [--lang en] [--scope prose|copy|ui|code-comment] [--json] [--fail-on H|P|Q] [--rules <dir>] <files or directories>`;
 
 class UsageError extends Error {}
 
 // ---------- arguments ----------
 export function parseArgs(argv) {
-  const o = { lang: 'both', scope: null, json: false, failOn: null, rules: null, paths: [] };
+  const o = { scope: null, json: false, failOn: null, rules: null, paths: [] };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     const val = () => {
@@ -23,7 +23,7 @@ export function parseArgs(argv) {
       return argv[++i];
     };
     if (a === '--json') o.json = true;
-    else if (a === '--lang') o.lang = val();
+    else if (a === '--lang') { if (val() !== 'en') throw new UsageError('--lang accepts only en (English only; the option is ignored)'); }
     else if (a === '--scope') o.scope = val();
     else if (a === '--fail-on') o.failOn = val();
     else if (a === '--rules') o.rules = val();
@@ -31,7 +31,6 @@ export function parseArgs(argv) {
     else if (a.startsWith('--')) throw new UsageError(`Unknown option ${a}`);
     else o.paths.push(a);
   }
-  if (!['en', 'vi', 'both'].includes(o.lang)) throw new UsageError(`--lang must be en, vi or both`);
   if (o.scope && !SCOPES.includes(o.scope)) throw new UsageError(`--scope must be one of ${SCOPES.join(', ')}`);
   if (o.failOn && !TIER_RANK[o.failOn]) throw new UsageError(`--fail-on must be H, P or Q`);
   if (!o.help && o.paths.length === 0) throw new UsageError('No files or directories given');
@@ -235,7 +234,7 @@ function ignoresFor(rawText) {
 
 // ---------- matching ----------
 function applicable(rules, o, scope) {
-  return rules.filter((r) => r.scope.includes(scope) && (r.lang === 'any' || o.lang === 'both' || r.lang === o.lang) && !o.disabled.some((d) => idMatches(d, r.id)));
+  return rules.filter((r) => r.scope.includes(scope) && !o.disabled.some((d) => idMatches(d, r.id)));
 }
 
 function matchText(rules, masked) {

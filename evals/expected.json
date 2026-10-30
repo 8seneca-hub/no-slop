@@ -9,16 +9,12 @@
   "bad/hedging.md": ["NS-P-19"],
   "bad/placeholder.json": ["NS-C-08", "NS-C-19"],
   "bad/ui-catalog-en.json": ["NS-C-01", "NS-C-03", "NS-C-04", "NS-C-07", "NS-C-08", "NS-C-16", "NS-C-17", "NS-C-20"],
-  "bad/ui-catalog-vi.json": ["NS-C-03", "NS-C-04", "NS-C-17", "NS-P-24"],
   "bad/vague-authority.md": ["NS-P-17", "NS-P-18"],
-  "bad/vi-prose.md": ["NS-P-24"],
   "good/catalog-en.json": [],
-  "good/catalog-vi.json": [],
   "good/code-comments.js": [],
   "good/decision.md": [],
   "good/readme-short.md": [],
   "good/release-notes.md": [],
   "good/technical.md": [],
-  "good/vi-prose.md": [],
   "good/voice.md": []
 }

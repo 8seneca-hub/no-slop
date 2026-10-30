@@ -5,7 +5,6 @@ Paste this into a repo's `CLAUDE.md` (or `AGENTS.md`). Edit the values; delete l
 ```md
 ## no-slop
 - Mode: during for edits and builds; after for reviews and audits. Never ask me which.
-- Languages: en and vi. Every user-facing string needs both.
 - Direction: DESIGN.md and the component kit in `src/ui/` win over any no-slop rule. Name every conflict in your notes.
 - Voice: personal writing keeps the author's voice (minimal edit). Product copy and docs follow the strict rules.
 - Linter: run `node scripts/slop-lint.mjs <changed files>` before you finish. Fix every H finding.
