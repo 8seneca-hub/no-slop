@@ -1,0 +1,9 @@
+{
+  "errors": {
+    "save": "Không lưu được. Kiểm tra kết nối rồi thử lại.",
+    "load": "Không tải được dự án. Thử lại hoặc liên hệ hỗ trợ."
+  },
+  "empty": { "projects": "Chưa có dự án. Tạo dự án đầu tiên." },
+  "labels": { "owner": "Chưa đặt", "status": "Đang làm" },
+  "items": "{count, plural, one {# dự án} other {# dự án}} trong {team}"
+}

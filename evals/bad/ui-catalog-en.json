@@ -1,0 +1,11 @@
+{
+  "errors": {
+    "generic": "Oops! Something went wrong!",
+    "save": "An error has occurred. Please try again.",
+    "field": "You entered an invalid email."
+  },
+  "toast": { "saved": "Changes saved successfully" },
+  "empty": { "projects": "No data available" },
+  "labels": { "owner": "—", "status": "in_progress", "id": "3f2b8c1e-4d5a-4e6f-8a9b-0c1d2e3f4a5b" },
+  "cta": { "start": "Get started today", "more": "Click here" }
+}

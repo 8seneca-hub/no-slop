@@ -1,0 +1,12 @@
+{
+  "errors": {
+    "save": "Could not save. Check your connection and retry.",
+    "email": "Enter an email like name@company.com.",
+    "load": "Could not load projects. Retry or contact support."
+  },
+  "toast": { "saved": "Changes saved" },
+  "empty": { "projects": "No projects yet. Create the first one." },
+  "labels": { "owner": "Not set", "status": "In progress" },
+  "items": "{count, plural, one {# project} other {# projects}} in {team}",
+  "greeting": "Hello, {name}"
+}

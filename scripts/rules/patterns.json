@@ -1,0 +1,199 @@
+{
+ "version": 1,
+ "rules": [
+  {
+   "id": "NS-P-21.r01",
+   "tier": "Q",
+   "lang": "any",
+   "kind": "regex",
+   "pattern": "—",
+   "flags": "",
+   "message": "Em dash; a common AI tell in running prose.",
+   "fix": "Use a comma, colon, period or parentheses.",
+   "scope": [
+    "prose",
+    "code-comment"
+   ]
+  },
+  {
+   "id": "NS-C-20.r01",
+   "tier": "H",
+   "lang": "any",
+   "kind": "regex",
+   "pattern": "—",
+   "flags": "",
+   "message": "Em dash in app text.",
+   "fix": "Rewrite as two short sentences or use a colon.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-04.r01",
+   "tier": "P",
+   "lang": "en",
+   "kind": "regex",
+   "pattern": "\\b(?:it|this|that|these|those|they|we)(?:'s|’s|'re|’re| is| are)? not (?:just |only |merely |about )?[^.!?\\n]{2,60}?(?:,|;|—| but)\\s*(?:it|this|that|they|we)(?:'s|’s|'re|’re| is| are)\\b",
+   "flags": "i",
+   "message": "Binary contrast (\"not X, it is Y\"); knocks down a claim nobody made.",
+   "fix": "State Y directly.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-05.r01",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "regex",
+   "pattern": "\\bnot an? [^.!?\\n]{1,40}[.!]\\s*not an? ",
+   "flags": "i",
+   "message": "Negative listing (\"Not a X. Not a Y.\").",
+   "fix": "Say what the thing is.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-06.r02",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "regex",
+   "pattern": "\\b(?:the (?:result|truth|problem|catch|answer|reality|kicker|secret|takeaway|lesson)|here(?:'|’)?s the (?:thing|catch|kicker|truth)|one thing)\\s*:\\s",
+   "flags": "i",
+   "message": "Colon reveal; stages a drumroll before the point.",
+   "fix": "Put the point in the sentence.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-C-08.r01",
+   "tier": "H",
+   "lang": "any",
+   "kind": "regex",
+   "pattern": "^\\s*(?:—|–|--|n/a)\\s*$|:\\s*(?:—|–|--|n/a)\\s*$",
+   "flags": "im",
+   "message": "Dash or n/a used as an empty value.",
+   "fix": "Hide the row, or write \"Not set\".",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-16.r01",
+   "tier": "H",
+   "lang": "en",
+   "kind": "regex",
+   "pattern": "\\b(?:error|failed|failure|invalid|couldn't|could not|can't|cannot|unable|denied|wrong)\\b[^\\n]{0,80}!",
+   "flags": "i",
+   "message": "Exclamation mark in an error message.",
+   "fix": "End with a period; shouting adds stress.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-04.r03",
+   "tier": "H",
+   "lang": "en",
+   "kind": "regex",
+   "pattern": "\\b(?:oops|whoops|uh[- ]oh|oh no)\\b",
+   "flags": "i",
+   "message": "Cute error opener; hides the fault and wastes the first words.",
+   "fix": "Say what happened.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-04.r04",
+   "tier": "H",
+   "lang": "en",
+   "kind": "regex",
+   "pattern": "something went wrong(?![^\\n]{0,80}\\b(?:try|retry|contact|check|refresh|reload|again)\\b)",
+   "flags": "i",
+   "message": "Vague error without a next step.",
+   "fix": "Say what failed and what to do.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-03.r01",
+   "tier": "P",
+   "lang": "en",
+   "kind": "regex",
+   "pattern": "\\b(?:click|tap|press) here\\b",
+   "flags": "i",
+   "message": "Link or button text that names no action.",
+   "fix": "Name the action or the destination.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-07.r01",
+   "tier": "H",
+   "lang": "any",
+   "kind": "regex",
+   "pattern": "\\b[A-Z]{2,}(?:_[A-Z0-9]+)+\\b|\\b[a-z]{2,}(?:_[a-z0-9]+)+\\b",
+   "flags": "",
+   "message": "Raw enum or snake_case token on screen.",
+   "fix": "Map it to a translated label.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-07.r02",
+   "tier": "H",
+   "lang": "any",
+   "kind": "regex",
+   "pattern": "\\b[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\\b",
+   "flags": "i",
+   "message": "Raw UUID on screen.",
+   "fix": "Show the name or a human reference.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-07.r03",
+   "tier": "H",
+   "lang": "any",
+   "kind": "regex",
+   "pattern": "\\b[a-z][a-z0-9]*(?:\\.[a-z][a-zA-Z0-9_]*){2,}\\b",
+   "flags": "",
+   "message": "Untranslated message key leaking into the UI.",
+   "fix": "Add the missing translation or fix the lookup.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-19.r01",
+   "tier": "H",
+   "lang": "any",
+   "kind": "regex",
+   "pattern": "\\b(?:todo|fixme|tbd|lorem ipsum|dolor sit amet|placeholder text)\\b",
+   "flags": "i",
+   "message": "Leftover placeholder or note.",
+   "fix": "Write the real text or remove it.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  }
+ ]
+}

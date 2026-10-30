@@ -1,0 +1,383 @@
+{
+ "version": 1,
+ "rules": [
+  {
+   "id": "NS-P-24.v01",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "trong bối cảnh hiện nay",
+   "flags": "i",
+   "message": "Cụm sáo rỗng kiểu mở bài; không mang thông tin.",
+   "fix": "Bỏ cụm này, vào thẳng ý chính.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v02",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "trong thế giới ngày nay",
+   "flags": "i",
+   "message": "Cụm sáo rỗng kiểu mở bài; không mang thông tin.",
+   "fix": "Bỏ cụm này, vào thẳng ý chính.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v03",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "không thể phủ nhận rằng",
+   "flags": "i",
+   "message": "Cụm sáo rỗng kiểu mở bài; không mang thông tin.",
+   "fix": "Bỏ cụm này, vào thẳng ý chính.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v04",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "cần lưu ý rằng",
+   "flags": "i",
+   "message": "Cụm sáo rỗng kiểu mở bài; không mang thông tin.",
+   "fix": "Bỏ cụm này, vào thẳng ý chính.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v05",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "điều quan trọng là",
+   "flags": "i",
+   "message": "Cụm sáo rỗng kiểu mở bài; không mang thông tin.",
+   "fix": "Bỏ cụm này, vào thẳng ý chính.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v06",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "phải thừa nhận rằng",
+   "flags": "i",
+   "message": "Cụm sáo rỗng kiểu mở bài; không mang thông tin.",
+   "fix": "Bỏ cụm này, vào thẳng ý chính.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v07",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "hãy cùng khám phá",
+   "flags": "i",
+   "message": "Cụm sáo rỗng kiểu mở bài; không mang thông tin.",
+   "fix": "Bỏ cụm này, vào thẳng ý chính.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v08",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "hãy cùng tìm hiểu",
+   "flags": "i",
+   "message": "Cụm sáo rỗng kiểu mở bài; không mang thông tin.",
+   "fix": "Bỏ cụm này, vào thẳng ý chính.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v09",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "nói tóm lại",
+   "flags": "i",
+   "message": "Cụm sáo rỗng kiểu mở bài; không mang thông tin.",
+   "fix": "Bỏ cụm này, vào thẳng ý chính.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v10",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "như đã đề cập",
+   "flags": "i",
+   "message": "Cụm sáo rỗng kiểu mở bài; không mang thông tin.",
+   "fix": "Bỏ cụm này, vào thẳng ý chính.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v11",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "đóng vai trò quan trọng",
+   "flags": "i",
+   "message": "Từ khoa trương, nghe như quảng cáo dịch từ tiếng Anh.",
+   "fix": "Nêu việc cụ thể thay cho tính từ.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v12",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "đóng vai trò then chốt",
+   "flags": "i",
+   "message": "Từ khoa trương, nghe như quảng cáo dịch từ tiếng Anh.",
+   "fix": "Nêu việc cụ thể thay cho tính từ.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v13",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "giải pháp toàn diện",
+   "flags": "i",
+   "message": "Từ khoa trương, nghe như quảng cáo dịch từ tiếng Anh.",
+   "fix": "Nêu việc cụ thể thay cho tính từ.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v14",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "giải pháp tối ưu",
+   "flags": "i",
+   "message": "Từ khoa trương, nghe như quảng cáo dịch từ tiếng Anh.",
+   "fix": "Nêu việc cụ thể thay cho tính từ.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v15",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "hơn bao giờ hết",
+   "flags": "i",
+   "message": "Từ khoa trương, nghe như quảng cáo dịch từ tiếng Anh.",
+   "fix": "Nêu việc cụ thể thay cho tính từ.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v16",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "nâng tầm",
+   "flags": "i",
+   "message": "Từ khoa trương, nghe như quảng cáo dịch từ tiếng Anh.",
+   "fix": "Nêu việc cụ thể thay cho tính từ.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v17",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "chất lượng hàng đầu",
+   "flags": "i",
+   "message": "Từ khoa trương, nghe như quảng cáo dịch từ tiếng Anh.",
+   "fix": "Nêu việc cụ thể thay cho tính từ.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v18",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "trải nghiệm tuyệt vời",
+   "flags": "i",
+   "message": "Từ khoa trương, nghe như quảng cáo dịch từ tiếng Anh.",
+   "fix": "Nêu việc cụ thể thay cho tính từ.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v19",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "một cách toàn diện",
+   "flags": "i",
+   "message": "Từ khoa trương, nghe như quảng cáo dịch từ tiếng Anh.",
+   "fix": "Nêu việc cụ thể thay cho tính từ.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-24.v20",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "một cách hiệu quả",
+   "flags": "i",
+   "message": "Từ khoa trương, nghe như quảng cáo dịch từ tiếng Anh.",
+   "fix": "Nêu việc cụ thể thay cho tính từ.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-C-17.v01",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "xin vui lòng",
+   "flags": "i",
+   "message": "Thừa lịch sự trong giao diện.",
+   "fix": "Dùng động từ trực tiếp.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-03.v01",
+   "tier": "P",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "nhấn vào đây",
+   "flags": "i",
+   "message": "Liên kết \"nhấn vào đây\" không nói hành động.",
+   "fix": "Đặt tên cho hành động, ví dụ \"Xem hóa đơn\".",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-03.v02",
+   "tier": "P",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "bấm vào đây",
+   "flags": "i",
+   "message": "Liên kết \"nhấn vào đây\" không nói hành động.",
+   "fix": "Đặt tên cho hành động, ví dụ \"Xem hóa đơn\".",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-04.v01",
+   "tier": "H",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "đã xảy ra lỗi",
+   "flags": "i",
+   "message": "Lỗi mơ hồ, không nói chuyện gì xảy ra và làm gì tiếp.",
+   "fix": "Nêu nguyên nhân và bước tiếp theo.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-04.v02",
+   "tier": "H",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "có lỗi xảy ra",
+   "flags": "i",
+   "message": "Lỗi mơ hồ, không nói chuyện gì xảy ra và làm gì tiếp.",
+   "fix": "Nêu nguyên nhân và bước tiếp theo.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-04.v03",
+   "tier": "H",
+   "lang": "vi",
+   "kind": "phrase",
+   "pattern": "đã có lỗi xảy ra",
+   "flags": "i",
+   "message": "Lỗi mơ hồ, không nói chuyện gì xảy ra và làm gì tiếp.",
+   "fix": "Nêu nguyên nhân và bước tiếp theo.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-24.v99",
+   "tier": "Q",
+   "lang": "vi",
+   "kind": "regex",
+   "pattern": "không chỉ[^.!?\\n]{1,60}mà còn",
+   "flags": "i",
+   "message": "Cấu trúc \"không chỉ... mà còn\" lặp lại; thường là khuôn dịch từ tiếng Anh.",
+   "fix": "Viết hai ý thành hai câu ngắn, hoặc giữ một ý.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  }
+ ]
+}

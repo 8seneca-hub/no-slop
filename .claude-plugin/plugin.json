@@ -1,0 +1,11 @@
+{
+  "name": "no-slop",
+  "displayName": "no-slop",
+  "version": "0.1.0",
+  "description": "Keeps generic AI output out of prose, product copy, UI, mobile layout, accessibility and code comments. A router skill, seven focused skills, and a zero-dependency linter for English and Vietnamese.",
+  "author": { "name": "8seneca" },
+  "repository": "https://github.com/8seneca-hub/no-slop",
+  "license": "MIT",
+  "keywords": ["ai-slop", "writing", "ux-copy", "ui", "accessibility", "code-comments", "vietnamese"],
+  "skills": ["./skills/"]
+}

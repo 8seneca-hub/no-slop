@@ -1,0 +1,21 @@
+no-slop
+Copyright (c) 2026 8seneca, MIT License (see LICENSE).
+
+This project learns from three MIT-licensed projects. All wording here is rewritten; no text or files are copied verbatim.
+
+1. stop-slop
+   Copyright (c) 2025 Hardik Pandya
+   https://github.com/hardikpandya/stop-slop
+   Adapted: names of prose patterns, the five-dimension score (used as an optional prose gate), sentence-starter and rhythm checks.
+
+2. no-ai-slop
+   Copyright (c) 2026 Peter Yang
+   https://github.com/petergyang/no-ai-slop
+   Adapted: voice-preserving minimal edit for personal writing, the edit and detect jobs, the portability test, the rule against inventing facts, and the packaging shape of the Codex plugin manifest.
+
+3. antislop
+   Copyright (c) 2026 Miqdad Badjuber (antislop)
+   https://github.com/miqdadbadjuber/anti-slop
+   Adapted: the three rule tiers, numbered rules, the evidence-backed Delivery Gate, the during and after modes, direction from DESIGN.md, the accessibility and mobile checks, and the code comment tells.
+
+Each source license permits use, modification and redistribution provided its copyright notice and permission notice are included. Those notices are reproduced by name above; the full MIT text is in LICENSE and is identical in all four projects apart from the copyright line.

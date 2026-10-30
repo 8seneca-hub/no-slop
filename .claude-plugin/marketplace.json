@@ -1,0 +1,12 @@
+{
+  "name": "no-slop",
+  "owner": { "name": "8seneca" },
+  "plugins": [
+    {
+      "name": "no-slop",
+      "source": "./",
+      "version": "0.1.0",
+      "description": "Keeps generic AI output out of prose, product copy, UI, mobile layout, accessibility and code comments."
+    }
+  ]
+}

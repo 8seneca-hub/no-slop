@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+*.log
+.env
+.env.*
+# anti-slop/ audit outputs are kept on purpose

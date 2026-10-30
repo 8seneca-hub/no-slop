@@ -1,0 +1,2070 @@
+{
+ "version": 1,
+ "rules": [
+  {
+   "id": "NS-P-02.01",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "here's the thing",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.02",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "here's the kicker",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.03",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "let me be clear",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.04",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "let's dive in",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.05",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "let's unpack",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.06",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "it's worth noting",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.07",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "it's important to note",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.08",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "it is important to note",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.09",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "it goes without saying",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.10",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "needless to say",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.11",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "at the end of the day",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.12",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "when it comes to",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.13",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "in today's fast-paced world",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.14",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "in today's digital landscape",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.15",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "in this article, we will",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.16",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "without further ado",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.17",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "let's be honest",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.18",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "the truth is",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.19",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "the reality is",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.20",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "make no mistake",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.21",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "i'd be remiss",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.22",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "buckle up",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.23",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "picture this",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-02.24",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "imagine a world",
+   "flags": "i",
+   "message": "Throat-clearing opener; it announces content instead of giving it.",
+   "fix": "Cut it and start with the point.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-06.01",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "here's what most people miss",
+   "flags": "i",
+   "message": "Faux-insight setup; it promises a revelation and delays it.",
+   "fix": "State the insight directly.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-06.02",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "what nobody tells you",
+   "flags": "i",
+   "message": "Faux-insight setup; it promises a revelation and delays it.",
+   "fix": "State the insight directly.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-06.03",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "the real question is",
+   "flags": "i",
+   "message": "Faux-insight setup; it promises a revelation and delays it.",
+   "fix": "State the insight directly.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-06.04",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "and that's the point",
+   "flags": "i",
+   "message": "Faux-insight setup; it promises a revelation and delays it.",
+   "fix": "State the insight directly.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-06.05",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "think about it",
+   "flags": "i",
+   "message": "Faux-insight setup; it promises a revelation and delays it.",
+   "fix": "State the insight directly.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-06.06",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "let that sink in",
+   "flags": "i",
+   "message": "Faux-insight setup; it promises a revelation and delays it.",
+   "fix": "State the insight directly.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-06.07",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "full stop",
+   "flags": "i",
+   "message": "Faux-insight setup; it promises a revelation and delays it.",
+   "fix": "State the insight directly.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-06.08",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "plain and simple",
+   "flags": "i",
+   "message": "Faux-insight setup; it promises a revelation and delays it.",
+   "fix": "State the insight directly.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-06.09",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "the uncomfortable truth",
+   "flags": "i",
+   "message": "Faux-insight setup; it promises a revelation and delays it.",
+   "fix": "State the insight directly.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-03.01",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "truly",
+   "flags": "i",
+   "message": "Emphasis crutch; the intensifier adds no information.",
+   "fix": "Delete it, or replace it with a fact that earns the emphasis.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-03.02",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "genuinely",
+   "flags": "i",
+   "message": "Emphasis crutch; the intensifier adds no information.",
+   "fix": "Delete it, or replace it with a fact that earns the emphasis.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-03.03",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "incredibly",
+   "flags": "i",
+   "message": "Emphasis crutch; the intensifier adds no information.",
+   "fix": "Delete it, or replace it with a fact that earns the emphasis.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-03.04",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "utterly",
+   "flags": "i",
+   "message": "Emphasis crutch; the intensifier adds no information.",
+   "fix": "Delete it, or replace it with a fact that earns the emphasis.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-03.05",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "quite frankly",
+   "flags": "i",
+   "message": "Emphasis crutch; the intensifier adds no information.",
+   "fix": "Delete it, or replace it with a fact that earns the emphasis.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-03.06",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "without a doubt",
+   "flags": "i",
+   "message": "Emphasis crutch; the intensifier adds no information.",
+   "fix": "Delete it, or replace it with a fact that earns the emphasis.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-03.07",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "game-changer",
+   "flags": "i",
+   "message": "Emphasis crutch; the intensifier adds no information.",
+   "fix": "Delete it, or replace it with a fact that earns the emphasis.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-03.08",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "game changer",
+   "flags": "i",
+   "message": "Emphasis crutch; the intensifier adds no information.",
+   "fix": "Delete it, or replace it with a fact that earns the emphasis.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-03.09",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "in a very real sense",
+   "flags": "i",
+   "message": "Emphasis crutch; the intensifier adds no information.",
+   "fix": "Delete it, or replace it with a fact that earns the emphasis.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-03.10",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "to be honest",
+   "flags": "i",
+   "message": "Emphasis crutch; the intensifier adds no information.",
+   "fix": "Delete it, or replace it with a fact that earns the emphasis.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-16.01",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "leverage",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.02",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "synergy",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.03",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "synergies",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.04",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "paradigm shift",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.05",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "move the needle",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.06",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "low-hanging fruit",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.07",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "circle back",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.08",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "deep dive",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.09",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "unlock the power",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.10",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "unlock the potential",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.11",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "best-in-class",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.12",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "world-class",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.13",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "cutting-edge",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.14",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "state-of-the-art",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.15",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "robust",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.16",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "seamless",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.17",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "seamlessly",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.18",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "holistic",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.19",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "end-to-end solution",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.20",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "streamline",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.21",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "empower",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.22",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "empowering",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.23",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "take it to the next level",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.24",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "turnkey",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.25",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "mission-critical",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.26",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "next-generation",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.27",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "revolutionize",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.28",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "supercharge",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-16.29",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "elevate your",
+   "flags": "i",
+   "message": "Business jargon; it sounds like any company.",
+   "fix": "Say what is actually done, in plain words.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-17.01",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "rich tapestry",
+   "flags": "i",
+   "message": "Puffery; it inflates importance without a fact.",
+   "fix": "Replace with the concrete thing it is meant to praise, or cut.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-17.02",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "testament to",
+   "flags": "i",
+   "message": "Puffery; it inflates importance without a fact.",
+   "fix": "Replace with the concrete thing it is meant to praise, or cut.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-17.03",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "plays a crucial role",
+   "flags": "i",
+   "message": "Puffery; it inflates importance without a fact.",
+   "fix": "Replace with the concrete thing it is meant to praise, or cut.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-17.04",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "plays a vital role",
+   "flags": "i",
+   "message": "Puffery; it inflates importance without a fact.",
+   "fix": "Replace with the concrete thing it is meant to praise, or cut.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-17.05",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "plays a pivotal role",
+   "flags": "i",
+   "message": "Puffery; it inflates importance without a fact.",
+   "fix": "Replace with the concrete thing it is meant to praise, or cut.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-17.06",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "ever-evolving",
+   "flags": "i",
+   "message": "Puffery; it inflates importance without a fact.",
+   "fix": "Replace with the concrete thing it is meant to praise, or cut.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-17.07",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "ever-changing landscape",
+   "flags": "i",
+   "message": "Puffery; it inflates importance without a fact.",
+   "fix": "Replace with the concrete thing it is meant to praise, or cut.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-17.08",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "navigate the complexities",
+   "flags": "i",
+   "message": "Puffery; it inflates importance without a fact.",
+   "fix": "Replace with the concrete thing it is meant to praise, or cut.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-17.09",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "in the realm of",
+   "flags": "i",
+   "message": "Puffery; it inflates importance without a fact.",
+   "fix": "Replace with the concrete thing it is meant to praise, or cut.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-17.10",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "delve into",
+   "flags": "i",
+   "message": "Puffery; it inflates importance without a fact.",
+   "fix": "Replace with the concrete thing it is meant to praise, or cut.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-17.11",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "delves into",
+   "flags": "i",
+   "message": "Puffery; it inflates importance without a fact.",
+   "fix": "Replace with the concrete thing it is meant to praise, or cut.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-17.12",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "a myriad of",
+   "flags": "i",
+   "message": "Puffery; it inflates importance without a fact.",
+   "fix": "Replace with the concrete thing it is meant to praise, or cut.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-17.13",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "underscores the importance",
+   "flags": "i",
+   "message": "Puffery; it inflates importance without a fact.",
+   "fix": "Replace with the concrete thing it is meant to praise, or cut.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-17.14",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "highlights the importance",
+   "flags": "i",
+   "message": "Puffery; it inflates importance without a fact.",
+   "fix": "Replace with the concrete thing it is meant to praise, or cut.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-17.15",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "beacon of",
+   "flags": "i",
+   "message": "Puffery; it inflates importance without a fact.",
+   "fix": "Replace with the concrete thing it is meant to praise, or cut.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-17.16",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "nestled",
+   "flags": "i",
+   "message": "Puffery; it inflates importance without a fact.",
+   "fix": "Replace with the concrete thing it is meant to praise, or cut.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-18.01",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "experts say",
+   "flags": "i",
+   "message": "Weasel attribution; no named source.",
+   "fix": "Name the source, or drop the claim.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-18.02",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "studies show",
+   "flags": "i",
+   "message": "Weasel attribution; no named source.",
+   "fix": "Name the source, or drop the claim.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-18.03",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "research shows",
+   "flags": "i",
+   "message": "Weasel attribution; no named source.",
+   "fix": "Name the source, or drop the claim.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-18.04",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "many believe",
+   "flags": "i",
+   "message": "Weasel attribution; no named source.",
+   "fix": "Name the source, or drop the claim.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-18.05",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "some argue",
+   "flags": "i",
+   "message": "Weasel attribution; no named source.",
+   "fix": "Name the source, or drop the claim.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-18.06",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "it is widely believed",
+   "flags": "i",
+   "message": "Weasel attribution; no named source.",
+   "fix": "Name the source, or drop the claim.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-18.07",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "it is well known",
+   "flags": "i",
+   "message": "Weasel attribution; no named source.",
+   "fix": "Name the source, or drop the claim.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-18.08",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "industry experts",
+   "flags": "i",
+   "message": "Weasel attribution; no named source.",
+   "fix": "Name the source, or drop the claim.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-18.09",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "critics say",
+   "flags": "i",
+   "message": "Weasel attribution; no named source.",
+   "fix": "Name the source, or drop the claim.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-18.10",
+   "tier": "P",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "observers note",
+   "flags": "i",
+   "message": "Weasel attribution; no named source.",
+   "fix": "Name the source, or drop the claim.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-19.01",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "it could be argued",
+   "flags": "i",
+   "message": "Hedge stack; the writer commits to nothing.",
+   "fix": "Pick one hedge at most, or state the claim.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-19.02",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "it seems that",
+   "flags": "i",
+   "message": "Hedge stack; the writer commits to nothing.",
+   "fix": "Pick one hedge at most, or state the claim.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-19.03",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "may potentially",
+   "flags": "i",
+   "message": "Hedge stack; the writer commits to nothing.",
+   "fix": "Pick one hedge at most, or state the claim.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-19.04",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "might possibly",
+   "flags": "i",
+   "message": "Hedge stack; the writer commits to nothing.",
+   "fix": "Pick one hedge at most, or state the claim.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-19.05",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "in some ways",
+   "flags": "i",
+   "message": "Hedge stack; the writer commits to nothing.",
+   "fix": "Pick one hedge at most, or state the claim.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-19.06",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "to some extent",
+   "flags": "i",
+   "message": "Hedge stack; the writer commits to nothing.",
+   "fix": "Pick one hedge at most, or state the claim.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-19.07",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "arguably",
+   "flags": "i",
+   "message": "Hedge stack; the writer commits to nothing.",
+   "fix": "Pick one hedge at most, or state the claim.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-20.01",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "in conclusion",
+   "flags": "i",
+   "message": "Meta-commentary; text talking about itself.",
+   "fix": "Cut it and let the text move.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-20.02",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "in summary",
+   "flags": "i",
+   "message": "Meta-commentary; text talking about itself.",
+   "fix": "Cut it and let the text move.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-20.03",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "to sum up",
+   "flags": "i",
+   "message": "Meta-commentary; text talking about itself.",
+   "fix": "Cut it and let the text move.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-20.04",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "to summarize",
+   "flags": "i",
+   "message": "Meta-commentary; text talking about itself.",
+   "fix": "Cut it and let the text move.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-20.05",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "as mentioned above",
+   "flags": "i",
+   "message": "Meta-commentary; text talking about itself.",
+   "fix": "Cut it and let the text move.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-20.06",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "as we'll see",
+   "flags": "i",
+   "message": "Meta-commentary; text talking about itself.",
+   "fix": "Cut it and let the text move.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-20.07",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "the rest of this",
+   "flags": "i",
+   "message": "Meta-commentary; text talking about itself.",
+   "fix": "Cut it and let the text move.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-20.08",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "this section will",
+   "flags": "i",
+   "message": "Meta-commentary; text talking about itself.",
+   "fix": "Cut it and let the text move.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-20.09",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "as previously stated",
+   "flags": "i",
+   "message": "Meta-commentary; text talking about itself.",
+   "fix": "Cut it and let the text move.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-14.01",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "moreover",
+   "flags": "i",
+   "message": "Stock transition opener; often adds no logic.",
+   "fix": "Drop it, or join the ideas with a real connection.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-14.02",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "furthermore",
+   "flags": "i",
+   "message": "Stock transition opener; often adds no logic.",
+   "fix": "Drop it, or join the ideas with a real connection.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-14.03",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "additionally",
+   "flags": "i",
+   "message": "Stock transition opener; often adds no logic.",
+   "fix": "Drop it, or join the ideas with a real connection.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-14.04",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "in addition",
+   "flags": "i",
+   "message": "Stock transition opener; often adds no logic.",
+   "fix": "Drop it, or join the ideas with a real connection.",
+   "scope": [
+    "prose"
+   ]
+  },
+  {
+   "id": "NS-P-23.01",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "in order to",
+   "flags": "i",
+   "message": "Padding word or phrase.",
+   "fix": "Use the short form.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-23.02",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "basically",
+   "flags": "i",
+   "message": "Padding word or phrase.",
+   "fix": "Use the short form.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-23.03",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "essentially",
+   "flags": "i",
+   "message": "Padding word or phrase.",
+   "fix": "Use the short form.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-23.04",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "due to the fact that",
+   "flags": "i",
+   "message": "Padding word or phrase.",
+   "fix": "Use the short form.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-23.05",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "at this point in time",
+   "flags": "i",
+   "message": "Padding word or phrase.",
+   "fix": "Use the short form.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-23.06",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "a number of",
+   "flags": "i",
+   "message": "Padding word or phrase.",
+   "fix": "Use the short form.",
+   "scope": [
+    "prose",
+    "copy"
+   ]
+  },
+  {
+   "id": "NS-P-25.01",
+   "tier": "H",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "as an ai language model",
+   "flags": "i",
+   "message": "Chatbot residue; text addressed to the prompter, not the reader.",
+   "fix": "Delete it.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-25.02",
+   "tier": "H",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "i hope this helps",
+   "flags": "i",
+   "message": "Chatbot residue; text addressed to the prompter, not the reader.",
+   "fix": "Delete it.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-25.03",
+   "tier": "H",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "great question",
+   "flags": "i",
+   "message": "Chatbot residue; text addressed to the prompter, not the reader.",
+   "fix": "Delete it.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-25.04",
+   "tier": "H",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "i'd be happy to help",
+   "flags": "i",
+   "message": "Chatbot residue; text addressed to the prompter, not the reader.",
+   "fix": "Delete it.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-25.05",
+   "tier": "H",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "feel free to reach out",
+   "flags": "i",
+   "message": "Chatbot residue; text addressed to the prompter, not the reader.",
+   "fix": "Delete it.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-25.06",
+   "tier": "H",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "let me know if you'd like",
+   "flags": "i",
+   "message": "Chatbot residue; text addressed to the prompter, not the reader.",
+   "fix": "Delete it.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-P-25.07",
+   "tier": "H",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "i cannot browse",
+   "flags": "i",
+   "message": "Chatbot residue; text addressed to the prompter, not the reader.",
+   "fix": "Delete it.",
+   "scope": [
+    "prose",
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-17.01",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "please",
+   "flags": "i",
+   "message": "Padding politeness in app text.",
+   "fix": "Use the direct verb form.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-17.02",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "please note",
+   "flags": "i",
+   "message": "Padding politeness in app text.",
+   "fix": "Use the direct verb form.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-17.03",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "we apologize for the inconvenience",
+   "flags": "i",
+   "message": "Padding politeness in app text.",
+   "fix": "Use the direct verb form.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-04.01",
+   "tier": "H",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "you entered an invalid",
+   "flags": "i",
+   "message": "Blames the user or fills the error with noise.",
+   "fix": "Say what happened and what to do next, without blame.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-04.02",
+   "tier": "H",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "you forgot",
+   "flags": "i",
+   "message": "Blames the user or fills the error with noise.",
+   "fix": "Say what happened and what to do next, without blame.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-04.03",
+   "tier": "H",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "you failed to",
+   "flags": "i",
+   "message": "Blames the user or fills the error with noise.",
+   "fix": "Say what happened and what to do next, without blame.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-04.04",
+   "tier": "H",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "your fault",
+   "flags": "i",
+   "message": "Blames the user or fills the error with noise.",
+   "fix": "Say what happened and what to do next, without blame.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-04.05",
+   "tier": "H",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "invalid input",
+   "flags": "i",
+   "message": "Blames the user or fills the error with noise.",
+   "fix": "Say what happened and what to do next, without blame.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-04.06",
+   "tier": "H",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "an error has occurred",
+   "flags": "i",
+   "message": "Blames the user or fills the error with noise.",
+   "fix": "Say what happened and what to do next, without blame.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-04.07",
+   "tier": "H",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "an unexpected error occurred",
+   "flags": "i",
+   "message": "Blames the user or fills the error with noise.",
+   "fix": "Say what happened and what to do next, without blame.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-01.01",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "successfully",
+   "flags": "i",
+   "message": "Marketing or system word in app text.",
+   "fix": "Use the plain word the user would say.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-01.02",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "get started today",
+   "flags": "i",
+   "message": "Marketing or system word in app text.",
+   "fix": "Use the plain word the user would say.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-01.03",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "start your journey",
+   "flags": "i",
+   "message": "Marketing or system word in app text.",
+   "fix": "Use the plain word the user would say.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-01.04",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "utilize",
+   "flags": "i",
+   "message": "Marketing or system word in app text.",
+   "fix": "Use the plain word the user would say.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-01.05",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "no data available",
+   "flags": "i",
+   "message": "Marketing or system word in app text.",
+   "fix": "Use the plain word the user would say.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  },
+  {
+   "id": "NS-C-01.06",
+   "tier": "Q",
+   "lang": "en",
+   "kind": "phrase",
+   "pattern": "are you sure you want to",
+   "flags": "i",
+   "message": "Marketing or system word in app text.",
+   "fix": "Use the plain word the user would say.",
+   "scope": [
+    "copy",
+    "ui"
+   ]
+  }
+ ]
+}

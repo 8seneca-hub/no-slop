@@ -1,0 +1,15 @@
+{
+  "name": "no-slop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Keeps generic AI output out of prose, product copy, UI and code comments.",
+  "license": "MIT",
+  "author": "8seneca",
+  "scripts": {
+    "test": "node --test scripts/",
+    "lint": "node scripts/slop-lint.mjs",
+    "evals": "node evals/run.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
